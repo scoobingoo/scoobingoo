@@ -110,7 +110,7 @@ Worked on the streaming chat controller and the agent layer — agent library an
 
 `Laravel 12` `Livewire 4` `Embeddings + vector search` `SePay` `Socialite`
 
-[![Live](https://img.shields.io/badge/Live-ai.caythuonghieu.vn-6C63FF?style=flat-square)](https://ai.caythuonghieu.vn)
+[![Live](https://img.shields.io/badge/Live-ai.caythuonghieu.com-6C63FF?style=flat-square)](https://ai.caythuonghieu.com)
 
 </td>
 </tr>
