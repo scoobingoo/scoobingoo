@@ -1,14 +1,14 @@
 <div align="center">
 
-# Hey there! I'm Sonic <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+# Hey there! I'm Son <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 
-### `Full-Stack Developer` | `AI Enthusiast` | `<TAG_THỨ_3>`
+### `Full-Stack Developer` | `React Native & Laravel` | `RAG & AI Agents`
 
 [![GitHub](https://img.shields.io/badge/GitHub-scoobingoo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/scoobingoo)
-[![Gmail](https://img.shields.io/badge/Gmail-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:<EMAIL_MUỐN_CÔNG_KHAI>)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/<LINKEDIN_SLUG>)
+[![Gmail](https://img.shields.io/badge/Gmail-sonlocle36123-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sonlocle36123@gmail.com)
+[![Location](https://img.shields.io/badge/Ho_Chi_Minh_City-6C63FF?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Building+AI-Powered+Products;Full-Stack+Web+Applications;Turning+Ideas+Into+Products" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=650&lines=Shipping+Production+Features+End+to+End;React+Native+%2B+Laravel+%2B+FastAPI;Building+RAG+Systems+%26+AI+Agents" alt="Typing SVG" />
 
 </div>
 
@@ -16,30 +16,44 @@
 
 ## About Me
 
-- Currently building **<DỰ_ÁN_ĐANG_LÀM>** at **<CÔNG_TY / TRƯỜNG>**
-- Experienced in **<LĨNH_VỰC_MẠNH_NHẤT>**
-- Always exploring the intersection of **AI** and **real-world products**
-- Open to collaborating on **<LOẠI_DỰ_ÁN_BẠN_MUỐN_THAM_GIA>**
+Full-stack developer shipping production features end to end — React Native and server-rendered web clients through **Laravel**, **FastAPI** and **Node** services down to **Postgres**, **MariaDB** and vector search.
 
-## Tech Stack
+- **43 pull requests merged in three months** on **Localis**, a Vietnam travel app live on the App Store, Google Play and the web from a single Expo codebase — every merge auto-deploys to production
+- Built **RAG systems twice over, on two different stacks**: MariaDB `VECTOR` + HNSW with bge-m3 embeddings in Python, and a Laravel embedding/chunking pipeline with streamed LLM answers in PHP
+- Own the **map layer** of a live travel app — GrabMaps vector tiles in a WebView, bounding-box queries, 0–50 km radius and province filters, plus the iOS/Android white-screen and WebView-reload bugs that came with it
 
-<div align="center">
+---
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+## Core Skills
 
-</div>
+**Frontend**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black) ![Expo](https://img.shields.io/badge/Expo_SDK_57-000020?style=flat-square&logo=expo&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Livewire](https://img.shields.io/badge/Livewire_4-FB70A9?style=flat-square&logo=livewire&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Backend**
+
+![Laravel](https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat-square&logo=php&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**AI**
+
+![RAG](https://img.shields.io/badge/RAG_Pipelines-6C63FF?style=flat-square) ![bge-m3](https://img.shields.io/badge/bge--m3_Embeddings-6C63FF?style=flat-square) ![HNSW](https://img.shields.io/badge/HNSW_Vector_Search-6C63FF?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white) ![SSE](https://img.shields.io/badge/SSE_Streaming-6C63FF?style=flat-square) ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+
+**Infrastructure**
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx_+_systemd-009639?style=flat-square&logo=nginx&logoColor=white) ![EAS](https://img.shields.io/badge/EAS_Build_and_Update-000020?style=flat-square&logo=expo&logoColor=white) ![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 
 ---
 
 ## Work Experience
 
-### <img src="https://img.shields.io/badge/<TÊN_CÔNG_TY>-6C63FF?style=flat-square" /> <CHỨC_DANH>
-`<Thg/Năm> - <Thg/Năm>`
+### <img src="https://img.shields.io/badge/IM_GROUP-6C63FF?style=flat-square" /> Full-Stack Developer
+Ho Chi Minh City
 
-**<Tên hệ thống / sản phẩm>**
-- <Bắt đầu bằng động từ quá khứ: Designed / Built / Integrated / Implemented / Optimized>
-- <Tích hợp API hoặc service bên thứ ba nào>
-- <Con số đo được: giảm X% thời gian, phục vụ Y người dùng, xử lý Z request/ngày>
+*Product studio building AI platforms for Vietnamese enterprises.*
+
+- Ship features across **four production systems in parallel** — a travel app, two RAG platforms and an enterprise AI gateway — in React Native, Laravel, FastAPI and TypeScript
+- Work **trunk-based on a shared main**: feature branch → PR → review → merge, where a merge deploys straight to live users
+- Keep unfinished work behind **feature flags**
 
 ---
 
@@ -47,26 +61,56 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**<Tên project 1>** | *<Thg/Năm - Thg/Năm>*
+**Localis — travel app with AI agentic chat** | *Jul 2026 - Present*
 
-<1-2 câu: project làm gì, điểm nổi bật. **In đậm con số ấn tượng.**>
+Live on **iOS, Android and web from one codebase** via EAS Update. **133 commits, 43 merged PRs, ~13k lines** across a three-service monorepo.
 
-`<Tech 1>` `<Tech 2>` `<Tech 3>`
+Built the Explore/Nearby map end to end on **GrabMaps vector tiles**: hero-image markers, GeoJSON radius circle, a 0–50 km slider, category and province filters that follow the user across screens, and bounding-box queries instead of loading every place. Fixed the bugs it shipped with — white screen on both platforms, a WebView reload stall solved by memoising the source, and slider jitter rewritten with PanResponder.
 
-[![Live](https://img.shields.io/badge/Live-Demo-6C63FF?style=flat-square)](<LINK_DEMO>) [![GitHub](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github)](<LINK_REPO>)
+`Expo React Native (SDK 57)` `Laravel 12 + Filament` `Node 22 Fastify + SSE`
+
+[![Live](https://img.shields.io/badge/Live-app.localis.vn-6C63FF?style=flat-square)](https://app.localis.vn)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**<Tên project 2>** | *<Thg/Năm - Thg/Năm>*
+**Localis Platform — RAG travel-advisory system** | *Jun 2026 - Aug 2026*
 
-<Mô tả ngắn.>
+Built the **Agents CRUD subsystem** and a ChatGPT-style chat interface over the retrieval pipeline — server-rendered Jinja2, no SPA.
 
-`<Tech 1>` `<Tech 2>` `<Tech 3>`
+Rendered streamed model output safely with highlight.js + DOMPurify, collapsible instructions, and an IME fix so Vietnamese typing stopped splitting characters mid-composition. Tuned generation limits against **exact token counting** (article 1,500, system 1,800) so long retrieved context stopped truncating answers.
 
-[![GitHub](https://img.shields.io/badge/Source-GitHub-181717?style=flat-square&logo=github)](<LINK_REPO>)
+`FastAPI` `MariaDB 12.3 VECTOR + HNSW` `bge-m3 (CPU, FP16)` `Gemini Flash` `Jinja2`
+
+[![Live](https://img.shields.io/badge/Live-platform.localis.vn-6C63FF?style=flat-square)](https://platform.localis.vn)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Helix — AI commerce operations for HEINEKEN Vietnam** | *Sep 2026 - Present*
+
+Work inside an **agent gateway serving Microsoft Teams and a web dashboard**, with a hybrid-RAG knowledge vault, hand-written SQL migrations and row-level security scoped per workspace.
+
+`TypeScript pnpm monorepo` `PostgreSQL + pgvector` `Shopee Open Platform` `MCP tools` `Vitest`
+
+[![Live](https://img.shields.io/badge/Live-helix.hoiai.net-6C63FF?style=flat-square)](https://helix.hoiai.net)
+
+</td>
+<td width="50%" valign="top">
+
+**Brandtree — AI brand-strategy SaaS** | *Nov 2025 - Apr 2026*
+
+Built **authentication and onboarding**: OTP email verification, Google OAuth via Socialite, password reset, and an account-type selection flow carried through migrations, models and UI.
+
+Worked on the streaming chat controller and the agent layer — agent library and system-agent models, factories, seeders, and versioned brief-prompt migrations (v2, v3) driving generated brand briefs. Built the mobile chat experience against a Livewire single-page chat.
+
+`Laravel 12` `Livewire 4` `Embeddings + vector search` `SePay` `Socialite`
+
+[![Live](https://img.shields.io/badge/Live-hoc.caythuonghieu.vn-6C63FF?style=flat-square)](https://hoc.caythuonghieu.vn)
 
 </td>
 </tr>
@@ -87,7 +131,7 @@
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:<EMAIL_MUỐN_CÔNG_KHAI>)
+[![Email](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sonlocle36123@gmail.com)
 
 <img src="https://komarev.com/ghpvc/?username=scoobingoo&color=6C63FF&style=flat-square&label=Profile+Views" />
 
