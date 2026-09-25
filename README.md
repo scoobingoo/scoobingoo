@@ -16,11 +16,11 @@
 
 ## About Me
 
-Full-stack developer shipping production features end to end — React Native and server-rendered web clients through **Laravel**, **FastAPI** and **Node** services down to **Postgres**, **MariaDB** and vector search.
-
-- **43 pull requests merged in three months** on **Localis**, a Vietnam travel app live on the App Store, Google Play and the web from a single Expo codebase — every merge auto-deploys to production
-- Built **RAG systems twice over, on two different stacks**: MariaDB `VECTOR` + HNSW with bge-m3 embeddings in Python, and a Laravel embedding/chunking pipeline with streamed LLM answers in PHP
-- Own the **map layer** of a live travel app — GrabMaps vector tiles in a WebView, bounding-box queries, 0–50 km radius and province filters, plus the iOS/Android white-screen and WebView-reload bugs that came with it
+* Currently building **Helix**, an AI commerce-operations platform for **HEINEKEN Vietnam** — an agent gateway serving Microsoft Teams and a web dashboard, hybrid RAG on **PostgreSQL + pgvector**, row-level security per workspace
+* Shipping **Localis**, a Vietnam travel app live on the **App Store, Google Play and the web from one Expo codebase** — **43 PRs merged in three months**, and the GrabMaps map layer is mine end to end
+* Built **RAG systems twice over on two different stacks** — MariaDB `VECTOR` + HNSW with bge-m3 embeddings in FastAPI, and a Laravel embedding/chunking pipeline with streamed LLM answers
+* **B.S. Software Engineering, University of Economics Ho Chi Minh City (UEH)** — cumulative GPA **3.62/4.0**, *High Distinction*, with A grades in Artificial Intelligence, Mobile and Web Application Development
+* Always exploring the intersection of AI and real-world products
 
 ---
 
