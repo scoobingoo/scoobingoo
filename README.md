@@ -122,8 +122,8 @@ Worked on the streaming chat controller and the agent layer — agent library an
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=scoobingoo&show_icons=true&hide_border=true&title_color=6C63FF&icon_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=scoobingoo&layout=compact&hide_border=true&title_color=6C63FF&text_color=c9d1d9&bg_color=0d1117" />
+<img height="180" src="https://streak-stats.demolab.com/?user=scoobingoo&hide_border=true&background=0D1117&stroke=30363D&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub streak" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=scoobingoo&theme=github_dark&utcOffset=7" alt="Commits by hour" />
 
 </div>
 
