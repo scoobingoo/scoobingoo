@@ -16,9 +16,9 @@
 
 ## About Me
 
-* Currently building AI commerce operations for HEINEKEN Vietnam at IM GROUP
-* Shipping Localis, a Vietnam travel app live on iOS, Android & web from one Expo codebase
-* Experienced in RAG systems across FastAPI, Laravel, MariaDB & pgvector
+* Currently shipping Localis, a Vietnam travel app live on iOS, Android & web from one Expo codebase
+* Built the MISA accounting & VAT e-invoice integration behind phuochung.net
+* Experienced in RAG systems across FastAPI, Laravel & MariaDB vector search
 * B.S. Software Engineering at UEH — GPA 3.62/4.0, High Distinction
 * Always exploring the intersection of AI and real-world products
 
@@ -52,34 +52,31 @@
 
 #### Junior Software Developer &nbsp;`Nov 2025 - Present`
 
-**Property Management System — hotel operations platform**
+**Localis — travel app on iOS, Android and web** &nbsp;·&nbsp; `Jul 2026 - Present` &nbsp;·&nbsp; 131 commits
 
-- Designed and maintained a web-based PMS covering booking workflows, room allocation, reservation management and dynamic rate plans
-- Integrated third-party channel manager APIs for real-time availability and pricing synchronisation
-- Built RESTful APIs and operational dashboards for hotel staff and administrators
-- Implemented complex booking logic — multi-room reservations and dynamic pricing rules
+- Own the Explore/Nearby map end to end on GrabMaps vector tiles — hero-image markers, GeoJSON radius circle, a 0-50 km slider, category and province filters, and bounding-box queries instead of loading every place
+- Fixed the platform bugs that came with it: white screen on both iOS and Android, a WebView reload stall solved by memoising the source, and slider jitter rewritten with PanResponder
+- Ship from a single Expo codebase to all three platforms via EAS Update, trunk-based with feature flags
 
-**OTA Pricing & Travel Intelligence**
+**phuochung.net — e-commerce with MISA accounting integration** &nbsp;·&nbsp; `May 2026 - Sep 2026` &nbsp;·&nbsp; 40 commits
 
-- Built a crawling system collecting pricing data from major Online Travel Agencies
-- Designed a pricing intelligence model analysing market trends to optimise hotel rate strategy
-- Built data pipelines and automation tools to normalise large-scale OTA datasets
-- Turned the result into actionable insight for revenue optimisation
+- Built server-side order synchronisation to MISA MShopKeeper, with a manual re-sync action in the admin panel
+- Built hourly MISA eShop inventory sync and documented the sync architecture for the team
+- Implemented the VAT e-invoice flow at checkout — invoice form, business-name and address splitting, and normalisation of MISA administrative addresses
+- Added admin email alerts when a MISA sync fails, and fixed the SePay webhook 500 that broke VAT invoice sync
+- Built a secret log viewer console for production debugging: pagination, realtime polling and level tabs
 
-**phuochung.net — MISA accounting & e-invoice integration**
+**Localis Platform — RAG travel-advisory system** &nbsp;·&nbsp; `Jun 2026 - Jul 2026` &nbsp;·&nbsp; 19 commits
 
-- Built the API layer against MISA, syncing accounting master data between the platform and the accounting system
-- Implemented invoice issuance end to end — draft, sign, issue and cancel — with status reconciled back into the app
-- Handled invoice templates, serial and number ranges, and error/retry handling on the MISA gateway
+- Built the Agents CRUD subsystem and a ChatGPT-style chat interface over the retrieval pipeline — server-rendered Jinja2, no SPA
+- Rendered streamed model output safely with highlight.js and DOMPurify, and fixed an IME bug that split Vietnamese characters mid-composition
+- Tuned generation limits against exact token counting so long retrieved context stopped truncating answers
 
-**Blockchain & algorithmic trading systems**
+**Brandtree — AI brand-strategy SaaS** &nbsp;·&nbsp; `Jan 2026 - Mar 2026` &nbsp;·&nbsp; 35 commits
 
-- Built automated trading bots for Bybit, OKX and BingX
-- Implemented API trade execution, risk management logic and position monitoring
-- Built strategy backtesting modules and performance tracking dashboards
-- Tuned algorithms for volatility-based and trend-following strategies
-
-**AI products** — Localis, Localis Platform, Helix and Brandtree, detailed under Featured Projects below
+- Built the agent output layer — persisting output for five system agents and syncing it into the UI without a page reload
+- Implemented brief-summary generation with versioned prompt migrations and polling for the generated result
+- Reworked the popup UX across the app: scroll locking, dismiss-on-outside-click, and reusing the brand-info view to render conversation output
 
 #### Fresher Developer &nbsp;`May 2025 - Oct 2025`
 
@@ -105,7 +102,7 @@
 
 **Localis — travel app with AI agentic chat** | *Jul 2026 - Present*
 
-Live on **iOS, Android and web from one codebase** via EAS Update. **133 commits, 43 merged PRs, ~13k lines** across a three-service monorepo.
+Live on **iOS, Android and web from one codebase** via EAS Update. **131 commits** across a three-service monorepo.
 
 Built the Explore/Nearby map end to end on **GrabMaps vector tiles**: hero-image markers, GeoJSON radius circle, a 0–50 km slider, category and province filters that follow the user across screens, and bounding-box queries instead of loading every place. Fixed the bugs it shipped with — white screen on both platforms, a WebView reload stall solved by memoising the source, and slider jitter rewritten with PanResponder.
 
@@ -116,7 +113,7 @@ Built the Explore/Nearby map end to end on **GrabMaps vector tiles**: hero-image
 </td>
 <td width="50%" valign="top">
 
-**Localis Platform — RAG travel-advisory system** | *Jun 2026 - Aug 2026*
+**Localis Platform — RAG travel-advisory system** | *Jun 2026 - Jul 2026*
 
 Built the **Agents CRUD subsystem** and a ChatGPT-style chat interface over the retrieval pipeline — server-rendered Jinja2, no SPA.
 
@@ -131,24 +128,26 @@ Rendered streamed model output safely with highlight.js + DOMPurify, collapsible
 <tr>
 <td width="50%" valign="top">
 
-**Helix — AI commerce operations for HEINEKEN Vietnam** | *Sep 2026 - Present*
+**phuochung.net — e-commerce with MISA accounting integration** | *May 2026 - Sep 2026*
 
-Work inside an **agent gateway serving Microsoft Teams and a web dashboard**, with a hybrid-RAG knowledge vault, hand-written SQL migrations and row-level security scoped per workspace.
+Built the **MISA integration** end to end: server-side order sync to MShopKeeper, hourly eShop inventory sync, an admin-triggered re-sync action, and email alerts to admins when a sync fails.
 
-`TypeScript pnpm monorepo` `PostgreSQL + pgvector` `Shopee Open Platform` `MCP tools` `Vitest`
+Implemented the **VAT e-invoice flow** at checkout — invoice form, business-name and address splitting, and normalised MISA administrative addresses. Fixed the SePay webhook 500 that broke invoice sync, and built a secret log viewer console for production debugging.
 
-[![Live](https://img.shields.io/badge/Live-helix.hoiai.net-6C63FF?style=flat-square)](https://helix.hoiai.net)
+`Laravel` `MISA MShopKeeper + eShop APIs` `SePay` `Docker`
+
+[![Live](https://img.shields.io/badge/Live-phuochung.net-6C63FF?style=flat-square)](https://phuochung.net)
 
 </td>
 <td width="50%" valign="top">
 
-**Brandtree — AI brand-strategy SaaS** | *Nov 2025 - Apr 2026*
+**Brandtree — AI brand-strategy SaaS** | *Jan 2026 - Mar 2026*
 
-Built **authentication and onboarding**: OTP email verification, Google OAuth via Socialite, password reset, and an account-type selection flow carried through migrations, models and UI.
+Built the **agent output layer** — persisting generated output for five system agents and syncing it into the UI without a page reload.
 
-Worked on the streaming chat controller and the agent layer — agent library and system-agent models, factories, seeders, and versioned brief-prompt migrations (v2, v3) driving generated brand briefs. Built the mobile chat experience against a Livewire single-page chat.
+Implemented brief-summary generation driven by versioned prompt migrations with polling for the result, and reworked the popup UX across the app: scroll locking, dismiss-on-outside-click, and reusing the brand-info view to render conversation output.
 
-`Laravel 12` `Livewire 4` `Embeddings + vector search` `SePay` `Socialite`
+`Laravel 12` `Livewire 4` `Stimulus` `Blade`
 
 [![Live](https://img.shields.io/badge/Live-ai.caythuonghieu.com-6C63FF?style=flat-square)](https://ai.caythuonghieu.com)
 
