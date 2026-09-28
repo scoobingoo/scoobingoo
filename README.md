@@ -48,44 +48,54 @@
 
 ### <img src="https://img.shields.io/badge/IM_GROUP-6C63FF?style=flat-square" /> Ho Chi Minh City
 
-*Joined as an intern in Oct 2024 and grew into the junior team — two years across hotel operations, market-data systems, trading automation and AI products.*
+*Joined as an intern in Oct 2024 and grew into the junior team — hotel and commerce operations, RAG platforms and cross-platform mobile.*
 
 #### Junior Software Developer &nbsp;`Nov 2025 - Present`
 
-**Localis — travel app on iOS, Android and web** &nbsp;·&nbsp; `Jul 2026 - Present` &nbsp;·&nbsp; 131 commits
+**Helix — AI commerce operations for HEINEKEN Vietnam** &nbsp;·&nbsp; `Sep 2026 - Present`
 
-- Own the Explore/Nearby map end to end on GrabMaps vector tiles — hero-image markers, GeoJSON radius circle, a 0-50 km slider, category and province filters, and bounding-box queries instead of loading every place
-- Fixed the platform bugs that came with it: white screen on both iOS and Android, a WebView reload stall solved by memoising the source, and slider jitter rewritten with PanResponder
-- Ship from a single Expo codebase to all three platforms via EAS Update, trunk-based with feature flags
+- Work inside an agent gateway serving Microsoft Teams and a web dashboard, backed by a hybrid-RAG knowledge vault on PostgreSQL + pgvector
+- Row-level security scoped per workspace, hand-written SQL migrations, MCP tools and Vitest coverage across a TypeScript pnpm monorepo
 
-**phuochung.net — e-commerce with MISA accounting integration** &nbsp;·&nbsp; `May 2026 - Sep 2026` &nbsp;·&nbsp; 40 commits
+**Localis — travel app on iOS, Android and web** &nbsp;·&nbsp; `Jul 2026 - Present`
+
+- Own the Explore/Nearby map end to end on GrabMaps vector tiles — hero-image markers, a GeoJSON radius circle, a 0-50 km distance slider, and category and province filters that follow the user across screens
+- Wired the map to the backend products API with a floating place-detail card, bounding-box queries instead of loading every place, and map navigation that highlights a place from its detail popup
+- Fixed the platform bugs it shipped with: white screen on iOS and Android, a WebView reload stall solved by memoising the source, slider jitter rewritten with PanResponder, and vector-tile 403s
+- Built the OTP auth flow's 60-second resend cooldown across the auth sheet and OTP screen, and turned the Nearby location bar into a search bar
+- Built admin features — image upload with live preview, an API-key modal with copy to clipboard, and category and registration-date filters on the data tables
+- Ship from a single Expo codebase to all three platforms via EAS Update, including the GitHub Actions workflow that deploys admin
+
+**phuochung.net — e-commerce with MISA accounting integration** &nbsp;·&nbsp; `May 2026 - Sep 2026`
 
 - Built server-side order synchronisation to MISA MShopKeeper, with a manual re-sync action in the admin panel
-- Built hourly MISA eShop inventory sync and documented the sync architecture for the team
-- Implemented the VAT e-invoice flow at checkout — invoice form, business-name and address splitting, and normalisation of MISA administrative addresses
-- Added admin email alerts when a MISA sync fails, and fixed the SePay webhook 500 that broke VAT invoice sync
+- Built hourly MISA eShop inventory sync with an admin toggle, and documented the sync architecture for the team
+- Implemented the VAT e-invoice flow at checkout — invoice form, field validation when VAT is selected, business-name and address splitting, and normalised MISA administrative addresses
+- Added admin email alerts when a MISA sync fails, and fixed the SePay webhook 500 that broke invoice sync
 - Built a secret log viewer console for production debugging: pagination, realtime polling and level tabs
 
-**Localis Platform — RAG travel-advisory system** &nbsp;·&nbsp; `Jun 2026 - Jul 2026` &nbsp;·&nbsp; 19 commits
+**Localis Platform — RAG travel-advisory system** &nbsp;·&nbsp; `Jun 2026 - Jul 2026`
 
-- Built the Agents CRUD subsystem and a ChatGPT-style chat interface over the retrieval pipeline — server-rendered Jinja2, no SPA
-- Rendered streamed model output safely with highlight.js and DOMPurify, and fixed an IME bug that split Vietnamese characters mid-composition
-- Tuned generation limits against exact token counting so long retrieved context stopped truncating answers
+- Built the Agents CRUD subsystem and collection CRUD editing
+- Built a ChatGPT-style agent chat interface over the retrieval pipeline, rendering streamed markdown safely with highlight.js and DOMPurify, with collapsible instructions
+- Fixed an IME bug that split Vietnamese characters mid-composition when typing to an agent
+- Raised the article token limit against exact token counting and validation so long retrieved context stopped truncating answers, and added API-key support to article creation
 
-**Brandtree — AI brand-strategy SaaS** &nbsp;·&nbsp; `Jan 2026 - Mar 2026` &nbsp;·&nbsp; 35 commits
+**Brandtree — AI brand-strategy SaaS** &nbsp;·&nbsp; `Jan 2026 - Mar 2026`
 
-- Built the agent output layer — persisting output for five system agents and syncing it into the UI without a page reload
-- Implemented brief-summary generation with versioned prompt migrations and polling for the generated result
+- Built the agent output layer — persisting generated output for five system agents and syncing it into the UI without a page reload
+- Implemented brief-summary generation driven by versioned prompt migrations, with polling for the generated result
 - Reworked the popup UX across the app: scroll locking, dismiss-on-outside-click, and reusing the brand-info view to render conversation output
+- Worked on the brand creation flow and the route and view structure during the chat build
 
-#### Fresher Developer &nbsp;`May 2025 - Oct 2025`
+#### Fresher Developer &nbsp;`Jan 2025 - Oct 2025`
 
 - Built internal CRUD modules and admin panels in Laravel + Filament — users, roles, permissions and content management
 - Wrote REST endpoints with form-request validation, plus factories and seeders so QA could reset state on demand
 - Added file uploads to S3 and Excel export reporting for internal operations tools
 - Handled first-line bug triage across two client projects, from reproduction to fix and regression check
 
-#### Software Development Intern &nbsp;`Oct 2024 - Apr 2025`
+#### Software Development Intern &nbsp;`Oct 2024 - Dec 2024`
 
 - Built internal admin screens in Laravel — forms, tables, filters and pagination — working from the team's existing Figma designs
 - Built a small reusable component library and a marketing landing page in React + Tailwind
@@ -98,11 +108,24 @@
 
 <table>
 <tr>
+<td colspan="2" valign="top">
+
+**Helix — AI commerce operations for HEINEKEN Vietnam** | *Sep 2026 - Present*
+
+Work inside an **agent gateway serving Microsoft Teams and a web dashboard**, with a hybrid-RAG knowledge vault, hand-written SQL migrations and row-level security scoped per workspace.
+
+`TypeScript pnpm monorepo` `PostgreSQL + pgvector` `Shopee Open Platform` `MCP tools` `Vitest`
+
+[![Live](https://img.shields.io/badge/Live-helix.hoiai.net-6C63FF?style=flat-square)](https://helix.hoiai.net)
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 **Localis — travel app with AI agentic chat** | *Jul 2026 - Present*
 
-Live on **iOS, Android and web from one codebase** via EAS Update. **131 commits** across a three-service monorepo.
+Live on **iOS, Android and web from one codebase** via EAS Update, built across a three-service monorepo.
 
 Built the Explore/Nearby map end to end on **GrabMaps vector tiles**: hero-image markers, GeoJSON radius circle, a 0–50 km slider, category and province filters that follow the user across screens, and bounding-box queries instead of loading every place. Fixed the bugs it shipped with — white screen on both platforms, a WebView reload stall solved by memoising the source, and slider jitter rewritten with PanResponder.
 
