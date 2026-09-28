@@ -66,14 +66,6 @@
 - Built admin features — image upload with live preview, an API-key modal with copy to clipboard, and category and registration-date filters on the data tables
 - Ship from a single Expo codebase to all three platforms via EAS Update, including the GitHub Actions workflow that deploys admin
 
-**phuochung.net — e-commerce with MISA accounting integration** &nbsp;·&nbsp; `May 2026 - Sep 2026`
-
-- Built server-side order synchronisation to MISA MShopKeeper, with a manual re-sync action in the admin panel
-- Built hourly MISA eShop inventory sync with an admin toggle, and documented the sync architecture for the team
-- Implemented the VAT e-invoice flow at checkout — invoice form, field validation when VAT is selected, business-name and address splitting, and normalised MISA administrative addresses
-- Added admin email alerts when a MISA sync fails, and fixed the SePay webhook 500 that broke invoice sync
-- Built a secret log viewer console for production debugging: pagination, realtime polling and level tabs
-
 **Localis Platform — RAG travel-advisory system** &nbsp;·&nbsp; `Jun 2026 - Jul 2026`
 
 - Built the Agents CRUD subsystem and collection CRUD editing
@@ -88,12 +80,27 @@
 - Reworked the popup UX across the app: scroll locking, dismiss-on-outside-click, and reusing the brand-info view to render conversation output
 - Worked on the brand creation flow and the route and view structure during the chat build
 
+**phuochung.net — e-commerce with MISA accounting integration** &nbsp;·&nbsp; `May 2026 - Sep 2026`
+
+- Built server-side order synchronisation to MISA MShopKeeper, with a manual re-sync action in the admin panel
+- Built hourly MISA eShop inventory sync with an admin toggle, and documented the sync architecture for the team
+- Implemented the VAT e-invoice flow at checkout — invoice form, field validation when VAT is selected, business-name and address splitting, and normalised MISA administrative addresses
+- Added admin email alerts when a MISA sync fails, and fixed the SePay webhook 500 that broke invoice sync
+- Built a secret log viewer console for production debugging: pagination, realtime polling and level tabs
+
 #### Fresher Developer &nbsp;`Jan 2025 - Oct 2025`
 
-- Built internal CRUD modules and admin panels in Laravel + Filament — users, roles, permissions and content management
-- Wrote REST endpoints with form-request validation, plus factories and seeders so QA could reset state on demand
-- Added file uploads to S3 and Excel export reporting for internal operations tools
-- Handled first-line bug triage across two client projects, from reproduction to fix and regression check
+**order.minie.vn — order confirmation app for Minie Cosmetic** &nbsp;·&nbsp; `Jan 2025 - May 2025`
+
+- Built the customer-facing order confirmation flow in React 19 and Tailwind, shipped as a single bundle served from PHP
+- Built the payment-proof feature end to end — image upload, preview and delete — on PHP endpoints proxying to internal n8n webhooks
+- Wired order lookup through the order webhook so customers and staff read the same order state
+
+**hoc.stvenglish.edu.vn — online learning platform** &nbsp;·&nbsp; `Jun 2025 - Oct 2025`
+
+- Built and deployed the STV English learning site: brand assets, responsive layout across mobile and tablet, and an admin statistics view
+- Protected the login route behind a secret access key and added one-click test accounts so QA could sign in as admin or student
+- Fixed admin table wrapping on small screens and added a mobile navigation drawer
 
 #### Software Development Intern &nbsp;`Oct 2024 - Dec 2024`
 
@@ -151,19 +158,6 @@ Rendered streamed model output safely with highlight.js + DOMPurify, collapsible
 <tr>
 <td width="50%" valign="top">
 
-**phuochung.net — e-commerce with MISA accounting integration** | *May 2026 - Sep 2026*
-
-Built the **MISA integration** end to end: server-side order sync to MShopKeeper, hourly eShop inventory sync, an admin-triggered re-sync action, and email alerts to admins when a sync fails.
-
-Implemented the **VAT e-invoice flow** at checkout — invoice form, business-name and address splitting, and normalised MISA administrative addresses. Fixed the SePay webhook 500 that broke invoice sync, and built a secret log viewer console for production debugging.
-
-`Laravel` `MISA MShopKeeper + eShop APIs` `SePay` `Docker`
-
-[![Live](https://img.shields.io/badge/Live-phuochung.net-6C63FF?style=flat-square)](https://phuochung.net)
-
-</td>
-<td width="50%" valign="top">
-
 **Brandtree — AI brand-strategy SaaS** | *Jan 2026 - Mar 2026*
 
 Built the **agent output layer** — persisting generated output for five system agents and syncing it into the UI without a page reload.
@@ -173,6 +167,19 @@ Implemented brief-summary generation driven by versioned prompt migrations with 
 `Laravel 12` `Livewire 4` `Stimulus` `Blade`
 
 [![Live](https://img.shields.io/badge/Live-ai.caythuonghieu.com-6C63FF?style=flat-square)](https://ai.caythuonghieu.com)
+
+</td>
+<td width="50%" valign="top">
+
+**phuochung.net — e-commerce with MISA accounting integration** | *May 2026 - Sep 2026*
+
+Built the **MISA integration** end to end: server-side order sync to MShopKeeper, hourly eShop inventory sync, an admin-triggered re-sync action, and email alerts to admins when a sync fails.
+
+Implemented the **VAT e-invoice flow** at checkout — invoice form, business-name and address splitting, and normalised MISA administrative addresses. Fixed the SePay webhook 500 that broke invoice sync, and built a secret log viewer console for production debugging.
+
+`Laravel` `MISA MShopKeeper + eShop APIs` `SePay` `Docker`
+
+[![Live](https://img.shields.io/badge/Live-phuochung.net-6C63FF?style=flat-square)](https://phuochung.net)
 
 </td>
 </tr>
