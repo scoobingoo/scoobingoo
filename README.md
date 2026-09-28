@@ -16,10 +16,10 @@
 
 ## About Me
 
-* Currently building **Helix**, an AI commerce-operations platform for **HEINEKEN Vietnam** — an agent gateway serving Microsoft Teams and a web dashboard, hybrid RAG on **PostgreSQL + pgvector**, row-level security per workspace
-* Shipping **Localis**, a Vietnam travel app live on the **App Store, Google Play and the web from one Expo codebase** — **43 PRs merged in three months**, and the GrabMaps map layer is mine end to end
-* Built **RAG systems twice over on two different stacks** — MariaDB `VECTOR` + HNSW with bge-m3 embeddings in FastAPI, and a Laravel embedding/chunking pipeline with streamed LLM answers
-* **B.S. Software Engineering, University of Economics Ho Chi Minh City (UEH)** — cumulative GPA **3.62/4.0**, *High Distinction*, with A grades in Artificial Intelligence, Mobile and Web Application Development
+* Currently building AI commerce operations for HEINEKEN Vietnam at IM GROUP
+* Shipping Localis, a Vietnam travel app live on iOS, Android & web from one Expo codebase
+* Experienced in RAG systems across FastAPI, Laravel, MariaDB & pgvector
+* B.S. Software Engineering at UEH — GPA 3.62/4.0, High Distinction
 * Always exploring the intersection of AI and real-world products
 
 ---
