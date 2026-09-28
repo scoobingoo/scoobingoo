@@ -46,14 +46,54 @@
 
 ## Work Experience
 
-### <img src="https://img.shields.io/badge/IM_GROUP-6C63FF?style=flat-square" /> Full-Stack Developer
-Ho Chi Minh City
+### <img src="https://img.shields.io/badge/IM_GROUP-6C63FF?style=flat-square" /> Ho Chi Minh City
 
-*Product studio building AI platforms for Vietnamese enterprises.*
+*Joined as an intern in Oct 2024 and grew into the junior team — two years across hotel operations, market-data systems, trading automation and AI products.*
 
-- Ship features across **four production systems in parallel** — a travel app, two RAG platforms and an enterprise AI gateway — in React Native, Laravel, FastAPI and TypeScript
-- Work **trunk-based on a shared main**: feature branch → PR → review → merge, where a merge deploys straight to live users
-- Keep unfinished work behind **feature flags**
+#### Junior Software Developer &nbsp;`Nov 2025 - Present`
+
+**Property Management System — hotel operations platform**
+
+- Designed and maintained a web-based PMS covering booking workflows, room allocation, reservation management and dynamic rate plans
+- Integrated third-party channel manager APIs for real-time availability and pricing synchronisation
+- Built RESTful APIs and operational dashboards for hotel staff and administrators
+- Implemented complex booking logic — multi-room reservations and dynamic pricing rules
+
+**OTA Pricing & Travel Intelligence**
+
+- Built a crawling system collecting pricing data from major Online Travel Agencies
+- Designed a pricing intelligence model analysing market trends to optimise hotel rate strategy
+- Built data pipelines and automation tools to normalise large-scale OTA datasets
+- Turned the result into actionable insight for revenue optimisation
+
+**phuochung.net — MISA accounting & e-invoice integration**
+
+- Built the API layer against MISA, syncing accounting master data between the platform and the accounting system
+- Implemented invoice issuance end to end — draft, sign, issue and cancel — with status reconciled back into the app
+- Handled invoice templates, serial and number ranges, and error/retry handling on the MISA gateway
+
+**Blockchain & algorithmic trading systems**
+
+- Built automated trading bots for Bybit, OKX and BingX
+- Implemented API trade execution, risk management logic and position monitoring
+- Built strategy backtesting modules and performance tracking dashboards
+- Tuned algorithms for volatility-based and trend-following strategies
+
+**AI products** — Localis, Localis Platform, Helix and Brandtree, detailed under Featured Projects below
+
+#### Fresher Developer &nbsp;`May 2025 - Oct 2025`
+
+- Built internal CRUD modules and admin panels in Laravel + Filament — users, roles, permissions and content management
+- Wrote REST endpoints with form-request validation, plus factories and seeders so QA could reset state on demand
+- Added file uploads to S3 and Excel export reporting for internal operations tools
+- Handled first-line bug triage across two client projects, from reproduction to fix and regression check
+
+#### Software Development Intern &nbsp;`Oct 2024 - Apr 2025`
+
+- Built internal admin screens in Laravel — forms, tables, filters and pagination — working from the team's existing Figma designs
+- Built a small reusable component library and a marketing landing page in React + Tailwind
+- Wrote seeders and fixtures so the team could reset demo data, and cleared UI bugs across two internal tools
+- Picked up the team's trunk-based workflow: feature branch, pull request, review, merge
 
 ---
 
