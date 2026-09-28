@@ -5,7 +5,7 @@
 ### `Full-Stack Developer` | `React Native & Laravel` | `RAG & AI Agents`
 
 [![GitHub](https://img.shields.io/badge/GitHub-scoobingoo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/scoobingoo)
-[![Gmail](https://img.shields.io/badge/Gmail-sonlocle36123-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sonlocle36123@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-soniclee2004-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:soniclee2004@gmail.com)
 [![Location](https://img.shields.io/badge/Ho_Chi_Minh_City-6C63FF?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=650&lines=Shipping+Production+Features+End+to+End;React+Native+%2B+Laravel+%2B+FastAPI;Building+RAG+Systems+%26+AI+Agents" alt="Typing SVG" />
@@ -131,7 +131,7 @@ Worked on the streaming chat controller and the agent layer — agent library an
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sonlocle36123@gmail.com)
+[![Email](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:soniclee2004@gmail.com)
 
 <img src="https://komarev.com/ghpvc/?username=scoobingoo&color=6C63FF&style=flat-square&label=Profile+Views" />
 
